@@ -1,0 +1,50 @@
+title: "LLM для бизнес-аналитика"
+href: index.md
+
+navigation:
+  logo:
+    url: ./index.html
+    text: LLM for BA
+    target: _self
+  header:
+    leftItems:
+      - text: Введение
+        type: link
+        url: ./pages/intro.html
+        target: _self
+      - text: Инструменты
+        type: link
+        url: ./pages/tools-gemini.html
+        target: _self
+    rightItems:
+      - type: controls
+        search: true
+        darkMode: true
+
+items:
+  - name: Общая информация
+    expanded: true
+    items:
+      - name: Введение
+        href: ./pages/intro.md
+  - name: ИИ-инструменты
+    items:
+      - name: Voice2Doc
+        href: ./pages/tools-voice2doc.md
+      - name: Gemini Pro
+        href: ./pages/tools-gemini.md
+  - name: Сценарии использования Gemini
+    expanded: true
+    items:
+      - name: 3.1 Анализ и документирование кода
+        href: ./pages/scenario-code.md
+      - name: 3.2 Оценка готового ТЗ
+        href: ./pages/scenario-review.md
+      - name: 3.3 Доработка ТЗ. Анализ рисков
+        href: ./pages/scenario-improve.md
+      - name: 3.4 Разработка ТЗ
+        href: ./pages/scenario-develop.md
+      - name: 3.5 Оценка трудоёмкости (не используем)
+        href: ./pages/scenario-estimate.md
+      - name: 3.6 Работа с блок-схемами (не используем)
+        href: ./pages/scenario-flowchart.md

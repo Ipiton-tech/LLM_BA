@@ -1,0 +1,12 @@
+{
+  "name": "llm-for-business-analyst",
+  "version": "1.0.0",
+  "description": "Практическое руководство по использованию LLM в работе бизнес-аналитика",
+  "scripts": {
+    "build": "yfm -i ./docs -o ./docs-html",
+    "start": "yfm serve -i ./docs"
+  },
+  "dependencies": {
+    "@diplodoc/cli": "^5.39.2"
+  }
+}
