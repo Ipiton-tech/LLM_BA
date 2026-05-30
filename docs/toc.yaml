@@ -36,15 +36,15 @@ items:
   - name: Сценарии использования Gemini
     expanded: true
     items:
-      - name: 3.1 Анализ и документирование кода
+      - name: Анализ и документирование кода
         href: ./pages/scenario-code.md
-      - name: 3.2 Оценка готового ТЗ
+      - name: Оценка готового ТЗ
         href: ./pages/scenario-review.md
-      - name: 3.3 Доработка ТЗ. Анализ рисков
+      - name: Доработка ТЗ. Анализ рисков
         href: ./pages/scenario-improve.md
-      - name: 3.4 Разработка ТЗ
+      - name: Разработка ТЗ
         href: ./pages/scenario-develop.md
-      - name: 3.5 Оценка трудоёмкости (не используем)
+      - name: Оценка трудоемкости (не используем)
         href: ./pages/scenario-estimate.md
-      - name: 3.6 Работа с блок-схемами (не используем)
+      - name: Работа с блок-схемами (не используем)
         href: ./pages/scenario-flowchart.md

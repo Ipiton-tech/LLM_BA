@@ -1,0 +1,30 @@
+llm-for-ba/
+├── .github/
+│   └── workflows/
+│       └── static.yaml              # Workflow для деплоя
+├── docs/
+│   ├── .yfm
+│   ├── toc.yaml
+│   ├── index.md
+│   ├── theme.yaml
+│   ├── config/
+│   │   └── presets.yaml
+│   ├── pages/
+│   │   ├── intro.md
+│   │   ├── tools-voice2doc.md
+│   │   ├── tools-gemini.md
+│   │   ├── scenario-code.md
+│   │   ├── scenario-review.md
+│   │   ├── scenario-improve.md
+│   │   ├── scenario-develop.md
+│   │   ├── scenario-estimate.md
+│   │   └── scenario-flowchart.md
+│   └── _assets/
+│       ├── images/
+│       │   ├── logo.svg
+│       │   └── favicon.svg
+│       └── styles/
+│           └── custom.css
+├── package.json
+├── package-lock.json
+└── README.md

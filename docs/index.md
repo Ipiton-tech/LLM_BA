@@ -26,19 +26,19 @@ blocks:
     verticalOffset: 'l'
     description: 'Практическое руководство по использованию языковых моделей (ИИ) в задачах бизнес-анализа. Узнайте, как повысить качество работы и сэкономить время.'
     background:
-      color: '#E8F5EE'
+      color: '#e9f8e7'
       fullWidth: false
     buttons:
       - text: 'Введение'
-        theme: 'outlined'
+        theme: 'outlined-action'
         size: 'promo'
         url: './pages/intro.md'
       - text: 'Инструменты'
-        theme: 'outlined'
+        theme: 'outlined-action'
         size: 'promo'
         url: './pages/tools-gemini.md'
       - text: 'Сценарии'
-        theme: 'outlined'
+        theme: 'outlined-action'
         size: 'promo'
         url: './pages/scenario-code.md'
 
@@ -142,7 +142,7 @@ blocks:
       - type: 'layout-item'
         content:
           title: '⏱️ Оценка задач'
-          text: 'Почему ИИ не подходит для оценки трудоёмкости.'
+          text: 'Почему ИИ не подходит для оценки трудоемкости.'
           links:
             - text: 'Подробнее'
               url: './pages/scenario-estimate.md'
