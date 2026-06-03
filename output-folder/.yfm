@@ -1,6 +1,8 @@
 # Конфигурация сборки Diplodoc
 allowHTML: true
 outputFormat: html
+authors:
+  enabled: true
 
 # Подключаем кастомные стили
 css:

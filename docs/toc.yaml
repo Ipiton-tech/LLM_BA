@@ -28,6 +28,7 @@ items:
       - name: Введение
         href: ./pages/intro.md
   - name: ИИ-инструменты
+    expanded: true
     items:
       - name: Voice2Doc
         href: ./pages/tools-voice2doc.md

@@ -1,6 +1,12 @@
 # Конфигурация сборки Diplodoc
 allowHTML: true
 outputFormat: html
+authors:
+  enabled: true
+
+extensions:
+    - github-vcs
+    - mdit-plugins
 
 # Подключаем кастомные стили
 css:
