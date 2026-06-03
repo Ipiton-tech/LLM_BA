@@ -1,6 +1,7 @@
 ---
 title: Введение — LLM в работе бизнес-аналитика
 description: Базовые принципы использования языковых моделей в бизнес-анализе.
+noToc: true
 copyright: IPITON
 author: IPITON
 ---
