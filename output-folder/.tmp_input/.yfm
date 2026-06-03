@@ -2,7 +2,17 @@
 allowHTML: true
 outputFormat: html
 
-# Авторы (работает через github-vcs автоматически)
+# Подключаем встроенное расширение для работы с GitHub
+extensions:
+  - github-vcs
+
+# Настройка подключения к GitHub (обязательно для работы authors)
+vcs:
+  type: github
+  # ЗАМЕНИТЕ на URL вашего репозитория
+  base: https://github.com/Ipiton-tech/LLM_BA.git
+
+# Включаем отображение авторов и дат изменения
 authors:
   enabled: true
 
