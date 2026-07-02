@@ -9,10 +9,9 @@ breadcrumbs: true
 extensions:
   - github-vcs
 
-# Настройка подключения к GitHub (обязательно для работы authors)
+# Настройка подключения к GitHub
 vcs:
   type: github
-  # ЗАМЕНИТЕ на URL вашего репозитория
   base: https://github.com/Ipiton-tech/LLM_BA.git
 
 # Включаем отображение авторов и дат изменения
@@ -23,8 +22,14 @@ authors:
 css:
   - ./_assets/styles/custom.css
 
+# Логотип
+logo-options:
+  url: ./index.html
+  src: ./_assets/images/logo.svg
+
 # Интерфейс
 interface:
+  favicon-src: ./_assets/images/favicon.svg
   search: true
   darkMode: true
 

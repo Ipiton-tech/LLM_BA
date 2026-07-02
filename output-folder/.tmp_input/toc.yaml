@@ -4,6 +4,7 @@ href: index.md
 navigation:
   logo:
     url: ./index.html
+    icon: ./_assets/images/logo-dark.svg
     text: LLM for BA
     target: _self
   header:
