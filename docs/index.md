@@ -15,18 +15,11 @@ meta:
 ::: page-constructor
 
 blocks:
-  # Hero-блок с описанием
-  - type: 'header-block'
-    width: 's'
-    offset: 'default'
-    title: 'LLM для бизнес-аналитика'
-    resetPaddings: true
-    verticalOffset: 'l'
-    description: 'Практическое руководство по использованию языковых моделей (ИИ) в задачах бизнес-анализа. Узнайте, как повысить качество работы и сэкономить время.'
-    background:
-      color: '#e9f8e7'
-      fullWidth: false
-    buttons:
+- type: 'header-block'
+  title: 'LLM для бизнес-аналитика'
+  description: 'Практическое руководство по использованию языковых моделей (ИИ) в задачах бизнес-анализа.'
+  additionalInfo: 'Узнайте, как повысить качество работы и сэкономить время.'
+  buttons:
       - text: 'Введение'
         theme: 'outlined-action'
         size: 'promo'
@@ -39,6 +32,10 @@ blocks:
         theme: 'outlined-action'
         size: 'promo'
         url: './pages/scenario-code.md'
+  background:
+    color: '#262e25'
+  theme: 'dark'
+
 
 :::
 
@@ -56,6 +53,8 @@ blocks:
       all: 12
       md: 6
       sm: 12
+    background:
+      border: shadow
     indent:
       top: sm
     children:
@@ -70,6 +69,7 @@ blocks:
               theme: 'normal'
               arrow: true
         border: true
+        controlPosition: footer
 
       # Карточка Gemini Pro
       - type: 'layout-item'
@@ -90,6 +90,8 @@ blocks:
       all: 12
       md: 4
       sm: 6
+    background:
+      border: shadow
     indent:
       top: sm
     children:
