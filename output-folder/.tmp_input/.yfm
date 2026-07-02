@@ -2,6 +2,9 @@
 allowHTML: true
 outputFormat: html
 
+# Включаем хлебные крошки на всех страницах
+breadcrumbs: true
+
 # Подключаем встроенное расширение для работы с GitHub
 extensions:
   - github-vcs
