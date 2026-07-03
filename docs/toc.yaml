@@ -4,7 +4,7 @@ href: index.md
 navigation:
   logo:
     url: ./index.html
-    icon: ./_assets/images/logo-dark.svg
+    icon: ./_assets/images/triple-right-sign.png
     text: LLM for BA
     target: _self
   header:
@@ -13,14 +13,57 @@ navigation:
         type: link
         url: ./pages/intro.html
         target: _self
+
+      # Выпадающий список «Инструменты»
       - text: Инструменты
-        type: link
-        url: ./pages/tools-gemini.html
-        target: _self
+        type: dropdown
+        items:
+          - text: Voice2Doc
+            type: link
+            url: ./pages/tools-voice2doc.html
+            target: _self
+          - text: Gemini Pro
+            type: link
+            url: ./pages/tools-gemini.html
+            target: _self
+
+      # Выпадающий список «Сценарии»
+      - text: Сценарии
+        type: dropdown
+        items:
+          - text: Анализ и документирование кода
+            type: link
+            url: ./pages/scenario-code.html
+            target: _self
+          - text: Оценка готового ТЗ
+            type: link
+            url: ./pages/scenario-review.html
+            target: _self
+          - text: Доработка ТЗ
+            type: link
+            url: ./pages/scenario-improve.html
+            target: _self
+          - text: Разработка ТЗ
+            type: link
+            url: ./pages/scenario-develop.html
+            target: _self
+          - text: Оценка трудоемкости
+            type: link
+            url: ./pages/scenario-estimate.html
+            target: _self
+          - text: Работа с блок-схемами
+            type: link
+            url: ./pages/scenario-flowchart.html
+            target: _self
+
     rightItems:
       - type: controls
         search: true
         darkMode: true
+      - type: link
+        text: Ipiton
+        url: https://ipiton.ru/
+        icon: ./_assets/images/heart.png
 
 items:
   - name: Общая информация

@@ -26,7 +26,7 @@ blocks:
       - text: 'Инструменты'
         theme: 'outlined-action'
         size: 'promo'
-        url: './pages/tools-gemini.md'
+        url: './pages/tools-voice2doc.md'
       - text: 'Сценарии'
         theme: 'outlined-action'
         size: 'promo'
