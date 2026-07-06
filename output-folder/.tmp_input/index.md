@@ -32,7 +32,7 @@ blocks:
         size: 'promo'
         url: './pages/scenario-code.md'
   background:
-    color: '#262e25'
+    color: '#1d3447'
   theme: 'dark'
 
 
