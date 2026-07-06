@@ -5,7 +5,7 @@ description: Возможности и ограничения ИИ при соз
 
 # Работа с блок-схемами
 
-<small>_**Статус:** <span style="color: #E74C3C; font-weight: 600;">✗ Не используем в работе</span> (15.04.2026)_</small>
+<small>_**Статус:** <span style="color: #df8a80; font-weight: 600;">✗ Не используем в работе</span> (15.04.2026)_</small>
 
 <br>
 

@@ -5,7 +5,7 @@ description: Языковая модель Gemini Pro, используемая 
 
 # Gemini (версия Pro)
 
-<small>_**Статус:** <span style="color: #54BA7E; font-weight: 600;">✓ Используем в работе</span>_</small>
+<small>_**Статус:** <span style="color: #2DACBF; font-weight: 600;">✓ Используем в работе</span>_</small>
 
 Сервис является одной из крупнейших языковых моделей, используемой в качестве корпоративного AI-инструмента.
 
