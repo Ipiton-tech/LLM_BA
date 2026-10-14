@@ -63,7 +63,7 @@ navigation:
       - type: link
         text: Ipiton
         url: https://ipiton.ru/
-        icon: ./_assets/images/heart.png
+        icon: ./_assets/images/feather-24_128x128.png
 
 items:
   - name: Общая информация
